@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(248, 241, 219);
+    }
+      .pay{
+margin: 20px;
+  }
+  .pay h2{
+    margin: 5px 17px;
+  }
+  .pay h3{
+    margin: 5px 10px;
+  }
+  .ond h1{
+    margin: 5px 20px;
+  }
+  .ond h3{
+    margin: 5px 10px;
+  }
+  .payment{
+/* display: none; */
+display: flex;
+flex-direction: column;
+}
+.pay{
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-left: 40px; */
+/* display: none; */
+margin-left: 50px;
+}
+.payment input{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-left: 0px;
+height: 40px;
+width: 70vw;
+cursor: pointer;
+}
+.immg{
+display: flex;
+flex-direction: row;
+}
+#done{
+margin-top: 50px;
+height: 40px;
+margin-left: 35px;
+/* position: absolute; */
+/* margin-right: 200px; */
+width: 60vw;
+}
+.sabn{
+  position: absolute;
+    font-size: 37px;
+    top: 0;
+    left: 0;
+}
+h2{
+  font-size: 30px;
+}
+</style>
+<body>
+    <!-- <div class="sabn" onclick="window.location.reload()">⬅</div> -->
+    <div class="pay">
+        <!-- <div class="sabn" onclick="window.location.reload()">⬅</div> -->
+      <div class="payment">
+          <h2>💳payment online</h2>
+          <h3>accept cards</h3>
+          <div class="immg">
+          <img src="https://logowik.com/content/uploads/images/visa-payment-card1873.jpg" alt=""  style="width:50px" height="50px">
+          <img src="https://img.freepik.com/premium-vector/digital-wallet-logo-technology-logo-design_267160-177.jpg" alt="" style="width:50px" height="50px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="" style="width:50px" height="50px">
+
+          </div>
+          <h3>name of card</h3>
+          <input type="text" placeholder="debit card"  required>
+          <h3>credit card/debit card</h3>
+          <input type="number" placeholder="1232 1245 1465"  required>
+          <h3>🧮exp month</h3>
+          <input type="text" placeholder="june"  required>
+          <h3>🗓️year</h3>
+          <input type="number" placeholder="2024"  required>
+
+          <!-- <button id="done" onclick="window.location.reload();">Done</button>  -->
+          <button id="done" onclick="alert('your order successfully submit👍')">done</button> 
+      </div>
+      </div>  
+
+</body>
+</html>
